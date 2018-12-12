@@ -1,10 +1,10 @@
 from collections import Counter
 from functools import partial
-from linear_algebra import dot, vector_add
-from stats import median, standard_deviation
-from probability import normal_cdf
-from gradient_descent import minimize_stochastic
-from simple_linear_regression import total_sum_of_squares
+from code_python3.linear_algebra import dot, vector_add
+from code_python3.stats import median, standard_deviation
+from code_python3.probability import normal_cdf
+from code_python3.gradient_descent import minimize_stochastic
+from code_python3.simple_linear_regression import total_sum_of_squares
 import math, random
 
 def predict(x_i, beta):
